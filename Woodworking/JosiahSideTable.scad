@@ -83,19 +83,6 @@ module rightSide(){
     cube([0.25, depth, height]);
 }
 
-module frame(){
-    
-    color(c = [162/255, 132/255, 97/255, 1.0]){
-    front();
-    back();
-    base();
-    leftSide();
-    rightSide();
-    top();
-    }
-    
-}
-
 module top(){
     
     //topCeil
@@ -111,6 +98,18 @@ module top(){
     cube([width - thickness*2 - 0.25, depth - thickness*2 - 0.25, plywoodThickness]);
 }
 
+module frame(){
+    
+    color(c = [162/255, 132/255, 97/255, 1.0]){
+    front();
+    back();
+    base();
+    leftSide();
+    rightSide();
+    top();
+    }
+    
+}
 
 
 
