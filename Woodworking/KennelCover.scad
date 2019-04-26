@@ -52,8 +52,10 @@ module legssss(){
 
 module main(){
     
-    top();
-    legssss();
+    color(c = [162/255, 132/255, 97/255, 1.0]){
+        top();
+        legssss();
+    }
     
 }main();
 
